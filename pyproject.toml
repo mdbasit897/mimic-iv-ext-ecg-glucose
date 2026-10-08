@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glucoecg"
+version = "1.0.0"
+description = "Leak-free utilities and reference baselines for MIMIC-IV-Ext-ECG-Glucose v1.0.0"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Md Basit Azam" }, { name = "Sarangthem Ibotombi Singh" }]
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scikit-learn", "xgboost", "matplotlib"]
+
+[tool.setuptools]
+packages = ["glucoecg"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

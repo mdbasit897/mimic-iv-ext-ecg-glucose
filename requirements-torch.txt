@@ -1,0 +1,5 @@
+# Extra packages for validation/baseline_mlp.py and loaders/glucoecg_dataset.py.
+# For a CPU-only install:  pip install -r requirements-torch.txt --index-url https://download.pytorch.org/whl/cpu
+torch==2.13.0
+# Optional, raw waveform loading from MIMIC-IV-ECG:
+wfdb

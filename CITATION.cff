@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it and the MIMIC-IV-Ext-ECG-Glucose dataset,
+  MIMIC-IV, MIMIC-IV-ECG and PhysioNet.
+title: "mimic-iv-ext-ecg-glucose: code for the MIMIC-IV-Ext-ECG-Glucose dataset"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/mdbasit897/mimic-iv-ext-ecg-glucose"
+authors:
+  - family-names: Azam
+    given-names: Md Basit
+    affiliation: "Department of Computer Science and Engineering, Tezpur University"
+  - family-names: Singh
+    given-names: Sarangthem Ibotombi
+    affiliation: "Department of Computer Science and Engineering, Tezpur University"
+keywords:
+  - electrocardiogram
+  - blood glucose
+  - MIMIC-IV
+  - PhysioNet
+references:
+  - type: dataset
+    title: "MIMIC-IV-Ext-ECG-Glucose: Temporally Aligned 12-Lead ECG and Laboratory Blood Glucose Pairs with Quality and Pharmacological Annotations"
+    version: 1.0.0
+    doi: 10.13026/nts2-vj76
+    authors:
+      - family-names: Azam
+        given-names: Md Basit
+      - family-names: Singh
+        given-names: Sarangthem
+    publisher:
+      name: PhysioNet

@@ -1,0 +1,18 @@
+# Ignore all CSV and DAT files (PhysioNet data)
+*.csv
+*.dat
+
+# Python/Jupyter noise
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# System noise
+.DS_Store
+Thumbs.db
+# Local run outputs (may contain row-level credentialed data)
+results/
+*.csv.gz
+.pytest_cache/
+.idea/
+/*.pdf
